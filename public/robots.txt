@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siradigital.vercel.app/sitemap.xml

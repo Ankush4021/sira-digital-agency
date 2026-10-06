@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz@0,9..144;1,9..144&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  /* Text colors */
+  --text: #4b4b4b;
+  /* normal paragraph text - halka black */
+  --text-h: #000000;
+  /* headings - pure black */
+
+  /* Background & border */
+  --bg: #ffffff;
+  /* page background - white */
+  --border: #353535ac;
+  /* light grey border, cards/dividers ke liye */
+
+  /* Purple theme color */
+  --accent: #7e3be2;
+  /* main purple - buttons, links, highlights */
+  --accent-light: #f3e8ff;
+  /* halka purple - background sections ke liye */
+
+  /* Fonts */
+  --sans: "Plus Jakarta Sans", sans-serif;
+  --display: "Fraunces", serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  overflow-x: hidden;
+  /* color: var(--text); */
+  background: var(--bg);
+  font-size: 18px;
+  line-height: 145%;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* h1, h2, h3 {
+  color: var(--text-h);
+  font-weight: 800;
+  margin: 0;
+} */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
