@@ -72,7 +72,9 @@ export default function ContactSection() {
           service: formData.service || "Not specified",
           message: fullMessage,
         },
-        EMAILJS_PUBLIC_KEY
+         {
+            publicKey: EMAILJS_PUBLIC_KEY,
+         }
       );
 
       setStatus("success");
